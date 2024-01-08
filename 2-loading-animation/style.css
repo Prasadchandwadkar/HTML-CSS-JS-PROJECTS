@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/77/41/102/wildlife-landscape-illustration-wallpaper-preview.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-image: blur(50px);
+}
+
+img {
+	display: flex;
+	margin: 10% 40%;
+	width: 20%;
+	height: 20%;
+  animation: rot 0.8s ease-in-out infinite;
+}
+
+h1 {
+	display: flex;
+	margin-top: -150px;
+font-size: 90px;
+	justify-content: center;
+  -webkit-text-stroke: 2px  rgb(0, 0, 0);
+  color: transparent;
+}
+
+@keyframes rot {
+
+    0%{
+      rotate: 360deg;
+
+  
+}
