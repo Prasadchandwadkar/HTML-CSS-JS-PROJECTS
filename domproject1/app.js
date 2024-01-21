@@ -17,6 +17,8 @@ const emojis = [
   "😂",
   "😃",
   "😁",
+  "Hey !",
+  "Good Morning",
 ]
 
 emoji.addEventListener("mouseover",()=>{
