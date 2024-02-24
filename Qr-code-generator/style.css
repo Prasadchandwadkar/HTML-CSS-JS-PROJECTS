@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(237, 149, 255, 0.379);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	box-shadow: 0 0 1px 0 black;
+	width: 500px;
+
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 1%;
+	border-bottom-left-radius: 1%;
+	padding: 60px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	font-family: "Philosopher", sans-serif;
+	opacity: 50%;
+}
+
+.qr-input {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	border-radius: 30px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: larger;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+}
+
+.qr-button {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	border-radius: 30px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: medium;
+	background-color: lightgreen;
+	color: black;
+	font-weight: bold;
+}
+
+.qr-img {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border: 2px dotted rgb(0, 0, 0);
+	padding: 5px;
+}
+
+.copyright {
+	position: relative;
+	top: 150px;
+	left: 110px;
+	opacity: 50%;
+}
